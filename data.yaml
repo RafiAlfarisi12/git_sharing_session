@@ -1,0 +1,13 @@
+train: D:/Data HDD/Data Kuliah Rafi Alfarisi/Semester 8/Tugas Akhir/Revisi Juni/YOLOV8/Dataset/train/images
+val: D:/Data HDD/Data Kuliah Rafi Alfarisi/Semester 8/Tugas Akhir/Revisi Juni/YOLOV8/Dataset/valid/images
+test: D:/Data HDD/Data Kuliah Rafi Alfarisi/Semester 8/Tugas Akhir/Revisi Juni/YOLOV8/Dataset/test/images
+
+nc: 12
+names: ['Aircraft', 'Animal', 'Bus', 'Car', 'Helicopter', 'Human', 'Motorcycle', 'Pole', 'Stone', 'Tank', 'Tree', 'Truck']
+
+roboflow:
+  workspace: my-project-g12c4
+  project: militerry-object
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/my-project-g12c4/militerry-object/dataset/2
